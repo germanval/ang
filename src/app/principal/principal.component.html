@@ -1,0 +1,24 @@
+<mat-toolbar color="accent">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span >Examen angular</span>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irmaterias()">Materias</button>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irsalario()">Salario</button>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irtrafico()">Trafico</button>
+
+    
+    <button mat-icon-button
+    (click)="salir()"
+     class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>logout</mat-icon>
+    </button>
+  </mat-toolbar>
+  
+
+
+<hr />
+<router-outlet></router-outlet>
